@@ -30,7 +30,9 @@ end
 end
 p arr[0]
 #<ListNode:0x00000001e69000 @val=1, @next=#<ListNode:0x00000001e68fd8 @val=2, @next=#<ListNode:0x00000001e68fb0 @val=3, @next=#<ListNode:0x00000001e68f88 @val=4, @next=#<ListNode:0x00000001e68f60 @val=5, @next=#<ListNode:0x00000001e68f38 @val=6, @next=#<ListNode:0x00000001e68f10 @val=7, @next=#<ListNode:0x00000001e68ee8 @val=8, @next=nil>>>>>>>>
+# alias [1,2,3,4,5,6,7,8]
+
 p odd_even_list arr[0]
 #<ListNode:0x00000001e69000 @val=1, @next=#<ListNode:0x00000001e68fb0 @val=3, @next=#<ListNode:0x00000001e68f60 @val=5, @next=#<ListNode:0x00000001e68f10 @val=7, @next=#<ListNode:0x00000001e68fd8 @val=2, @next=#<ListNode:0x00000001e68f88 @val=4, @next=#<ListNode:0x00000001e68f38 @val=6, @next=#<ListNode:0x00000001e68ee8 @val=8, @next=nil>>>>>>>>
-
+# alias [1,3,5,7,2,4,6,8]
 
