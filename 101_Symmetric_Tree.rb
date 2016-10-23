@@ -27,7 +27,7 @@ def is_symmetric(root)
   helper1(root)
   helper2(root, arr2)
   helper3(root, arr4)
-  arr1 == arr2 && arr3 == arr4 # if the two order traversals of tree and mirror tree , then tree is the same as the mirror tree
+  arr1 == arr2 && arr3 == arr4 # if the two order traversals of tree and mirror tree are same , then tree is the same as the mirror tree
 end
 #=====================================================>
 
