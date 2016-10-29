@@ -1,7 +1,7 @@
 # Level traversal, put the last node of each layer to array
 def right_side_view(root) 
   queue = []
-  queue << [root]unless root.nil?
+  queue << [root] unless root.nil?
   i = 0 
   while i < queue.length
     arr = []
