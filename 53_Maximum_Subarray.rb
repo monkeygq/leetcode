@@ -16,7 +16,7 @@ p max_sub_array nums # => 6
 
 # sum[i] means the max subarray which includes nums[i] of nums[0..i] 
 # sum[0] = nums[0]
-# sum[i+1] = max(sum[i] + nums[i], nums[i])
+# sum[i+1] = max(sum[i] + nums[i+1], nums[i+1])
 # for example :
 # nums = [x, y, z]
 # step1 : x
