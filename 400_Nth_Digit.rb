@@ -11,7 +11,7 @@ def find_nth_digit(n)
   flag = helper[-2]
   rem = flag % (i - 1)
   div = flag / (i - 1)
-  if rem == 0
+  if rem == 0 # when rem = 0 , div - 1 , rem + (i - 1) , then , including all cases
     div -= 1
     rem += i - 1 
   end
